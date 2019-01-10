@@ -18,14 +18,14 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-CYKPodLib的描述
+                               CYKPodLib的描述
                        DESC
 
-  s.homepage         = 'https://github.com/gitchenyuke/CYKPodLib'
+  s.homepage         = 'https://github.com/gitchenyuke/CYKPodProject'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'gitchenyuke' => '397189536@qq.com' }
-  s.source           = { :git => 'https://github.com/gitchenyuke/CYKPodLib.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/gitchenyuke/CYKPodProject.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'

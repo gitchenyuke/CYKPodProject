@@ -17,6 +17,7 @@ NS_ASSUME_NONNULL_BEGIN
 +(NSString*)toYYYYMMDD:(long)longData;
 +(NSString*)toYYYYMMDDHHMM:(long)longData;
 +(NSString*)toHHMM:(long)longData;
++(NSString*)toHHMM2:(long)longData;
 /// 获取时间戳
 +(NSString*)toTimeStampDate:(NSDate *)date;
 @end

@@ -45,6 +45,16 @@
     NSString* string=[dateFormat stringFromDate:date];
     return string;
 }
+//测试更更新
++(NSString*)toHHMM2:(long)longData{
+    NSDate *date = [NSDate dateWithTimeIntervalSince1970:longData];
+    NSDateFormatter *dateFormat=[[NSDateFormatter alloc]init];
+    [dateFormat setDateFormat:@"HH:mm"];
+    NSString* string=[dateFormat stringFromDate:date];
+    return string;
+}
+
+
 /// 获取时间戳
 +(NSString*)toTimeStampDate:(NSDate *)date{
     return [[NSNumber numberWithLongLong:[date timeIntervalSince1970]] stringValue];
