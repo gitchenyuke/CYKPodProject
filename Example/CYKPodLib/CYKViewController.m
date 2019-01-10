@@ -21,7 +21,7 @@
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
     
-    NSString * str = [DZDateTimeHelper toHHMM:1111111];
+    //NSString * str = [DZDateTimeHelper toHHMM:1111111];
 }
 
 - (void)didReceiveMemoryWarning
