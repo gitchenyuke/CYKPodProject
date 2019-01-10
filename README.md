@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # CYKPodLib
 
 [![CI Status](https://img.shields.io/travis/gitchenyuke/CYKPodLib.svg?style=flat)](https://travis-ci.org/gitchenyuke/CYKPodLib)
@@ -27,3 +28,7 @@ gitchenyuke, 397189536@qq.com
 ## License
 
 CYKPodLib is available under the MIT license. See the LICENSE file for more info.
+=======
+# CYKPodProject
+测试上传
+>>>>>>> 80bb6147a8f1af10eca40732f48632108ef5d4c3
